@@ -1,0 +1,39 @@
+{
+  "dataset_version": "1.0.0",
+  "evaluation_split": "validation",
+  "row_count": 2469,
+  "quoted_baseline": {
+    "mae_days": 6.559,
+    "rmse_days": 8.668,
+    "underestimate_rate": 0.6488
+  },
+  "historical_median_baseline": {
+    "mae_days": 14.975,
+    "rmse_days": 22.039,
+    "underestimate_rate": 0.3994
+  },
+  "model": {
+    "mae_days": 5.244,
+    "rmse_days": 7.118,
+    "underestimate_rate": 0.3969
+  },
+  "conservative_margin_days": 7.255,
+  "validation_coverage": 0.9004,
+  "parameters": {
+    "trees": 120,
+    "max_depth": 18,
+    "min_samples_leaf": 3,
+    "seed": 20261012
+  },
+  "versions": {
+    "python": "3.12.10",
+    "sklearn": "1.5.2",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3"
+  },
+  "inputs": {
+    "/Users/cristo/Desktop/AeroSecure_AI_Starter/data/prepared/train/train.csv": "b4931a0e694130e3221701eaa49d97f9320852e63ba9c1e6beb540df4ad73010",
+    "/Users/cristo/Desktop/AeroSecure_AI_Starter/data/prepared/validation/validation.csv": "af26cb6963b843f51b77bd9fb3f95a990158f778b3997ee33ad07558b2a7adc4"
+  },
+  "created_utc": "2026-10-14T18:53:04.355653+00:00"
+}
