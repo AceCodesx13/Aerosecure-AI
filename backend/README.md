@@ -40,7 +40,7 @@ The current prediction service is a temporary placeholder. It uses `quoted_lead_
 "model_source": "temporary-placeholder"
 ```
 
-This placeholder must not be treated as an AI-generated prediction. It will be replaced by the trained scikit-learn model after the model artifact is available.
+Will be replaced by the trained scikit-learn model after the model artifact is available.
 
 ## Run automated tests
 
