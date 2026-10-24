@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from .api.routes import health, predict
+from .api.routes import health, orders, predict
 
 app = FastAPI(
     title="AeroSecure AI API",
@@ -10,6 +10,7 @@ app = FastAPI(
 
 app.include_router(health.router)
 app.include_router(predict.router)
+app.include_router(orders.router)
 
 
 @app.get("/")
