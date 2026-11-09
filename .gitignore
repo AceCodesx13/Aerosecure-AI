@@ -1,5 +1,10 @@
 .venv/
-__pycache__/
-.ipynb_checkpoints/
-artifacts/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.env
 config/aws.json
+artifacts/releases/
+artifacts/logs/
+.ipynb_checkpoints/
