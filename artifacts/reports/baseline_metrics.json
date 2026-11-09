@@ -1,0 +1,12 @@
+{
+  "evaluation_split": "validation",
+  "row_count": 2469,
+  "quoted_baseline": {
+    "mae_days": 6.559,
+    "underestimate_rate": 0.6488
+  },
+  "historical_median_baseline": {
+    "mae_days": 14.975,
+    "underestimate_rate": 0.3994
+  }
+}

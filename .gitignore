@@ -6,5 +6,9 @@
 .env
 config/aws.json
 artifacts/releases/
+<<<<<<< HEAD
 artifacts/logs/
 .ipynb_checkpoints/
+=======
+artifacts/logs/
+>>>>>>> bfcbc49 (Merging Backend Implementation)
