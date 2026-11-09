@@ -1,0 +1,6 @@
+order_id,predicted_delivery_days,conservative_delivery_days
+ORD-016003,23.5,31
+ORD-016020,86.41,94
+ORD-016023,13.21,21
+ORD-016036,38.17,46
+ORD-016038,28.64,36

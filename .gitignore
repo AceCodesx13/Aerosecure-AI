@@ -7,3 +7,4 @@
 config/aws.json
 artifacts/releases/
 artifacts/logs/
+.ipynb_checkpoints/
