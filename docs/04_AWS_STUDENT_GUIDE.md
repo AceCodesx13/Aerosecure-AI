@@ -93,6 +93,7 @@ Save the submission record, job name, model URI, data hashes, image digest, vali
 | Placeholder rejection | Ask the mentor for the completed configuration. |
 | No credentials / wrong account | Fix your approved sign-in/profile, then reprint the plan. |
 | `AccessDenied` on upload or job start | Mentor checks team-prefix permissions, `iam:PassRole`, execution role and ECR access. |
+| `ecr:CreateRepository` denied | Do not repeatedly retry with student credentials. Ask the mentor or AWS administrator to create the approved ECR repository and grant the required permissions. Verify the approved image URI matches the AWS configuration. |
 | Quota / instance unavailable | Mentor selects an allowed CPU instance and checks region/quota. |
 | Container fails to start | Mentor verifies Linux amd64 image, image digest, entrypoint and source build. |
 | Model source differs from local code | Rebuild and approve a new image. Do not treat it as the same experiment. |
